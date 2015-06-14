@@ -8,12 +8,13 @@ pageEncoding="UTF-8"%>
 	<title>Enquiry Transaction History</title>
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
+			<button type="button" value="Print" onclick="window.print()" class="NonPrintable btn btn-default" style="margin-top:10px; margin-left:-30px;float:right;">
+			<span class="glyphicon glyphicon-print"></span>
+			</button>
 			<div class="col-md-11 col-sm-8 col-xs-8">
-			<center><h2 class="lead">Enquiry Transaction History</h2></center>
-				
-
+			<center><h2>Enquiry Transaction History</h2></center>
 			</div>
 			<div class="col-md-1"></div>
 		</div>

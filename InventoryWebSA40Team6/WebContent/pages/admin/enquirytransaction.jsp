@@ -10,9 +10,15 @@ pageEncoding="UTF-8"%>
   
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
+		
+		
+		<button type="button" value="Print" onclick="window.print()" class="NonPrintable btn btn-default" style="margin-top:10px; margin-left:-30px;float:right;">
+		<span class="glyphicon glyphicon-print"></span>
+		</button>
 			<center><h2>Enquiry Transaction History</h2></center>
+			
 			<div class="col-md-11 col-sm-8 col-xs-8">
 				
 

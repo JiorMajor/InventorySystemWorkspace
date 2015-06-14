@@ -14,6 +14,7 @@
 					<link href="/InventoryWebSA40Team6/bootstrap/css/bootstrap-data-table.css" type="text/css" rel="stylesheet"/>
 					<link href="/InventoryWebSA40Team6/bootstrap/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
 					<link href="/InventoryWebSA40Team6/bootstrap/css/style.css" type="text/css" rel="stylesheet" />
+					<link href="/InventoryWebSA40Team6/bootstrap/css/Printstyle.css" type="text/css" rel="stylesheet" media="print"/>
 					<script type="text/javascript" src="/InventoryWebSA40Team6/bootstrap/js/jquery-1.11.3.min.js"></script>
 					<script type="text/javascript" src="/InventoryWebSA40Team6/bootstrap/js/jquery-1.11.1.min.js"></script>
 					<script type="text/javascript" src="/InventoryWebSA40Team6/bootstrap/js/jquery.dataTables.min.js"></script>
@@ -75,7 +76,7 @@
 										<li class="divider"></li>
 										<li><a href="/InventoryWebSA40Team6/Admin/pending">Comfirm Order</a></li>
 										<li class="divider"></li>
-										<li><a href="#">Transaction History</a></li>
+										<li><a href="/InventoryWebSA40Team6/Admin/transaction">Transaction History</a></li>
 									</ul></li>
 
 								<li class="dropdown"><a href="order.jsp"
@@ -95,37 +96,27 @@
 		</div>
 
 	</div>
-	<div class="row">
-		<div class="container">
-			<br>
-			<br>
-		</div>
-	</div>
-	<!-- LogOut btn -->
-	<div class="row">
-		<div class="container-fluid">
-			<div class="col-md-9"></div>
-			<div class="col-md-2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10"></div>
+			<div class="col-md-2 last" style="float:right;padding-right: 0px;margin-top: 32px;">
 				<!-- Split button -->
-<div class="btn-group" style="margin-left:58px;">
-  <button type="button" class="btn btn-info">Welcome ${un}</button>
-  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu " role="menu">
-  	<c:url var="logout" scope="page" value="/logout"></c:url>
-    <li><a href="${logout}">Log Out</a></li>
-  </ul>
-</div>
+				<div class="btn-group" style="float:right;">
+				  <button type="button" class="btn btn-info">Welcome ${un}</button>
+				  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+				    <span class="caret"></span>
+				    <span class="sr-only">Toggle Dropdown</span>
+				  </button>
+				  <ul class="dropdown-menu " role="menu">
+				  	<c:url var="logout" scope="page" value="/logout"></c:url>
+				    <li><a href="${logout}">Log Out</a></li>
+				  </ul>
+				</div>
 			</div>
-			<div class="col-md-1"></div>
+			
 		</div>
 	</div>
-
-							
-
-							<decorator:body />
+		<decorator:body />
 
 
 							<div class="footer">

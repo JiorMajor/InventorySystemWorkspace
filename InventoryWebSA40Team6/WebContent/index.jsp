@@ -69,7 +69,7 @@
       </div>
     </div> <!-- /container -->
 
-		<div class="footer">
+		<div class="footer" style="bottom:0; position:fixed;">
 	<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

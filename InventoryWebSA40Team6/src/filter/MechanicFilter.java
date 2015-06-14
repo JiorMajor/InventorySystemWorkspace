@@ -49,7 +49,7 @@ public class MechanicFilter implements Filter {
 			res.sendRedirect("/InventoryWebSA40Team6/ShowLogin");
 
 			}
-		else if(!session.getAttribute("userT").equals("Admin")){
+		else if(!session.getAttribute("userT").equals("Mechanic")){
 			System.out.println("You don't have access to this page.");
 			res.sendRedirect("/InventoryWebSA40Team6/pages/admin/Error.jsp");
 		}

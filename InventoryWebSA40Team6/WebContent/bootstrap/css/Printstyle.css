@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.NonPrintable
+{
+	display:none;
+}
+
+.footer
+{
+	display:none;
+}
+
+.btn-group
+{
+	display:none;
+}
