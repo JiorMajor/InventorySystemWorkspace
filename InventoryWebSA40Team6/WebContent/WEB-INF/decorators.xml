@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <decorator name="admin-theme" page="admin-theme.jsp">
+        <pattern>/pages/admin/*</pattern>
+    </decorator>
+        <decorator name="mechanic-theme" page="mechanic-theme.jsp">
+        <pattern>/pages/mechanic/*</pattern>
+    </decorator>
+</decorators>
