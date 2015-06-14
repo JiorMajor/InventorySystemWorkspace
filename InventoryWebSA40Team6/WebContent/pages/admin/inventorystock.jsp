@@ -75,7 +75,7 @@ pageEncoding="UTF-8"%>
 
 						</td>
 						<td style="text-align: center;">
-							<c:url var="delurl" scope="page" value="/Admin/sdelproduct">
+							<c:url var="delurl" scope="page" value="/Admin/delproduct">
 							<c:param name="partNo" value="${pslist.partNo}" />
 						</c:url>
 						<a href="${delurl}"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span>

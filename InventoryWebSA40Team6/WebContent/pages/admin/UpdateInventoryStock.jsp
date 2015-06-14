@@ -63,7 +63,7 @@
 								<td style="text-align: center;">${pslist.reorderlvl}</td>
 								<td style="text-align: center;">${pslist.minOrderQty}</td>
 								<td style="text-align: center;">
-								<input type="number" id="total" class="form-control" name="total" value="${pslist.totalQty}" />
+								<input type="number" id="total" class="form-control" name="total" value="${pslist.totalQty}" min=0 />
 								</td>
 								<td style="text-align: center;">${pslist.totalQty-pslist.damagedQty}</td>
 								<td style="text-align: center;">

@@ -27,7 +27,7 @@
 			</div>	
 		</div>
 	</div><!-- End header -->
-	
+	<br><br><br>
 	<div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -37,14 +37,14 @@
                 <center><h2>
                     Sorry, you don't have permission to access this page!</h2></center>
                 <center><div class="error-actions">
-                    <a href="/InventoryWebSA40Team6" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                    <a href="/InventoryWebSA40Team6/Mechanic/LoadUsageServlet" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
                         Take Me Home </a>
                 </div></center>
             </div>
         </div>
     </div>
 </div>
-		<div class="footer">
+		<div class="footer" style="bottom:0; position:fixed">
 	<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
